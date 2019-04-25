@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTYNetworkTool_Example' do
+  pod 'WTYNetworkTool', :path => '../'
+
+  target 'WTYNetworkTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
