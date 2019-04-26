@@ -1,0 +1,6 @@
+framework module Pods_WTYNetworkTool_Tests {
+  umbrella header "Pods-WTYNetworkTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,7 +1,13 @@
 use_frameworks!
+platform :ios, '10.0'
 
 target 'WTYNetworkTool_Example' do
   pod 'WTYNetworkTool', :path => '../'
+  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'HandyJSON', '~> 5.0.0-beta.1'
+  pod 'Alamofire', '~> 5.0.0-beta.6'
 
   target 'WTYNetworkTool_Tests' do
     inherit! :search_paths

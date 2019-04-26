@@ -1,0 +1,6 @@
+framework module WTYNetworkTool {
+  umbrella header "WTYNetworkTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
