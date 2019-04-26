@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WTYNetworkTool
 
 [![CI Status](https://img.shields.io/travis/litengyue117@163.com/WTYNetworkTool.svg?style=flat)](https://travis-ci.org/litengyue117@163.com/WTYNetworkTool)
@@ -27,3 +28,6 @@ litengyue117@163.com, litengyue117@163.com
 ## License
 
 WTYNetworkTool is available under the MIT license. See the LICENSE file for more info.
+=======
+# WTYNetworkTool
+>>>>>>> 5edcec3641b0d47f8010dc6b98d830457c49ced5
