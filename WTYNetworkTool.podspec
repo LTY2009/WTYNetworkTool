@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTYNetworkTool'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于Alamofire+RxSwift+HandyJSON封装的网络请求库.'
 
 # This description is used to generate tags and improve search results.

@@ -41,7 +41,7 @@ open class APIUtil {
      */
     fileprivate static func request<T: HandyJSON>(observer: AnyObserver<T>, url: String, method: HTTPMethod, parameters: Parameters?, headers: HTTPHeaders?, returnType: T.Type) {
         
-        AF.request(url, method: method, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON { response in
+        AF.request(url, method: method, parameters: parameters, headers: headers).responseJSON { response in
             switch response.result {
             case .success:
                 self.successHandle(observer: observer, result: response.result, retrunType: returnType)
